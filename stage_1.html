@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph-Based Story Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #story {
+            margin-bottom: 20px;
+        }
+        .choice-button {
+            display: block;
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .choice-button:hover {
+            background-color: #0056b3;
+        }
+        #next-button {
+            display: block;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #next-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div id="story"></div>
+    <button id="next-button" style="display:none;">Next</button>
+    <div id="choices"></div>
+    <script src="stage_1.js"></script>
+</body>
+</html>
